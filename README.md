@@ -28,7 +28,7 @@ cd <repository-folder>
 
 Open Jupyter Notebook:
 
-    Start the Jupyter Notebook server by running:
+Start the Jupyter Notebook server by running:
 
     bash
 
@@ -36,16 +36,25 @@ Open Jupyter Notebook:
 
         In the Jupyter interface, navigate to the data_openiit_24.ipynb file and open it.
 
-    Run Each Cell Sequentially:
-        The notebook is divided into cells, each performing a specific operation.
-        To run a cell, select it and press Shift + Enter or use the "Run" button.
-        Follow any specific instructions within the notebook.
+Run Each Cell Sequentially:
+The notebook is divided into cells, each performing a specific operation.
+To run a cell, select it and press Shift + Enter or use the "Run" button.
+Follow any specific instructions within the notebook.
 
-Data Loading: This section loads data from the specified files or databases. Ensure that all necessary data files are in the correct directory.
-Data Preprocessing: Here, data is cleaned and transformed to prepare it for analysis or modeling.
-Analysis: This section includes statistical analyses, data visualizations, or other explorations.
-Modeling: If applicable, this section may build and train machine learning models on the processed data.
-Results: Displays the outcomes of the analyses or models, often with visualizations or summaries.
+Data Loading:
+This section loads data from the specified files or databases. Ensure that all necessary data files are in the correct directory.
+
+Data Preprocessing:
+Here, data is cleaned and transformed to prepare it for analysis or modeling.
+
+Analysis:
+This section includes statistical analyses, data visualizations, or other explorations.
+
+Modeling:
+If applicable, this section may build and train machine learning models on the processed data.
+
+Results:
+Displays the outcomes of the analyses or models, often with visualizations or summaries.
 
 Troubleshooting
 
