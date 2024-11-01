@@ -49,9 +49,5 @@ Results: Displays the outcomes of the analyses or models, often with visualizati
 
 Troubleshooting
 
-    ModuleNotFoundError: If you encounter an error saying a module is not found, make sure you have installed all dependencies listed in requirements.txt.
-    Data File Errors: Ensure that any data files used in the notebook are located in the correct directory, and that file paths in the code are correct.
-
-License
-
-Specify the license under which this code is distributed, e.g., MIT License
+ModuleNotFoundError: If you encounter an error saying a module is not found, make sure you have installed all dependencies listed in requirements.txt.
+Data File Errors: Ensure that any data files used in the notebook are located in the correct directory, and that file paths in the code are correct.
