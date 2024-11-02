@@ -7,11 +7,11 @@ Jupyter Notebook: To open .ipynb files interactively. Install via:
 
     bash
 
-pip install notebook
+    pip install notebook
 
 Dependencies: Install all necessary libraries by running:
 
-bash
+    bash
 
     pip install -r requirements.txt
 
@@ -23,8 +23,8 @@ Instructions for Running the Program
 
     bash
 
-git clone <repository-url>
-cd <repository-folder>
+    git clone <repository-url>
+    cd <repository-folder>
 
 Open Jupyter Notebook:
 
