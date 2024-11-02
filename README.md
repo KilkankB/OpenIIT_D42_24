@@ -18,8 +18,11 @@ Dependencies: Install all necessary libraries by running:
     (Note: You may need to create a requirements.txt file if one is not included, listing the libraries such as pandas, numpy, matplotlib, etc.)
 
 Open Jupyter Notebook:
+
 There are 3 Jupyter Notebook:
-1. **EDA.ipynb**:
+1. **EDA.ipynb**: This displays the Exploratory Data Analysis of various important features with respect to other relevant features.
+2. **data.ipynb**: This notebook pre-processes the data set, removing unneccesary features, and creating new relevant features from the given features. It is trained using a model to predict flight delay.
+3. **.ipynb**: In this notebook we tackle the second part of the Problem Statement which is rescheduling of flights which have been delayed by more than 15 minutes, using models to minimize overall delays. 
 
 Start the Jupyter Notebook server by running:
 
