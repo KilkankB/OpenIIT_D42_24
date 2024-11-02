@@ -1,5 +1,5 @@
-# OpenIIT_MS_24
-Prerequisites
+## OpenIIT_MS_24
+# Prerequisites
 
 Before running this notebook, ensure you have the following installed:
 Python 3.x: Required to run the Jupyter Notebook.
@@ -41,19 +41,19 @@ The notebook is divided into cells, each performing a specific operation.
 To run a cell, select it and press Shift + Enter or use the "Run" button.
 Follow any specific instructions within the notebook.
 
-Data Loading:
+# Data Loading:
 This section loads data from the specified files or databases. Ensure that all necessary data files are in the correct directory.
 
-Data Preprocessing:
+# Data Preprocessing:
 Here, data is cleaned and transformed to prepare it for analysis or modeling.
 
-Analysis:
+# Analysis:
 This section includes statistical analyses, data visualizations, or other explorations.
 
-Modeling:
+# Modeling:
 If applicable, this section may build and train machine learning models on the processed data.
 
-Results:
+# Results:
 Displays the outcomes of the analyses or models, often with visualizations or summaries.
 
 Troubleshooting
