@@ -18,6 +18,8 @@ Dependencies: Install all necessary libraries by running:
     (Note: You may need to create a requirements.txt file if one is not included, listing the libraries such as pandas, numpy, matplotlib, etc.)
 
 Open Jupyter Notebook:
+There are 3 Jupyter Notebook:
+1. *EDA.ipynb*:
 
 Start the Jupyter Notebook server by running:
 
@@ -34,6 +36,7 @@ Follow any specific instructions within the notebook.
 
 ## Data Loading:
 Use the data files present in the directory, which will be processed in the jupyter notebook.
+
 
 ## Data Preprocessing:
 Here, data is cleaned and transformed to prepare it for analysis or modeling.
