@@ -17,15 +17,6 @@ Dependencies: Install all necessary libraries by running:
 
     (Note: You may need to create a requirements.txt file if one is not included, listing the libraries such as pandas, numpy, matplotlib, etc.)
 
-Instructions for Running the Program
-
-    Clone the Repository (if applicable):
-
-    bash
-
-    git clone <repository-url>
-    cd <repository-folder>
-
 Open Jupyter Notebook:
 
 Start the Jupyter Notebook server by running:
