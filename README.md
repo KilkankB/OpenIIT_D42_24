@@ -105,8 +105,40 @@ If the hash is not in seen_columns, it adds the column to seen_columns.
 The function returns the duplicate_columns dictionary, which will contain keys for the original columns and lists of their duplicate counterparts.
 
 ## Results:
-Displays the outcomes of the analyses or models, often with visualizations or summaries.
+1. ### Define Range for n_estimators:
+n_estimators_range is defined from 100 to 300, in increments of 20. This specifies how many trees will be in the forest.
 
+2. ### Initialize Lists for Scores:
+Train_scores and test_scores are initialized as empty lists to store the mean R² scores for each configuration of the model.
+
+3. ### Model Training and Scoring:
+A loop iterates over the specified range of n_estimators.
+For each value, a RandomForestRegressor model is instantiated with that number of estimators.
+
+4. ### Cross-Validation:
+cross_val_score is used to perform 5-fold cross-validation on the training set (x_train, y_train) to calculate the mean R² score and store it in train_scores.
+The same procedure is applied to the test set (x_test, y_test), storing results in test_scores.
+
+5. ### Plotting the Results:
+A plot is generated to visualize the relationship between the number of estimators and the R² scores for both training and testing datasets.
+The plt.plot() function is used to create line plots for both sets of scores, with markers for clarity.
+Additional plot attributes like title, labels, legend, and grid lines are added for better readability.
+
+6. ### Random Forest Regressor Evaluation:
+Explored the effect of hyperparameters (min_samples_split and min_samples_leaf) on the Random Forest model's performance using cross-validation and plot the R² scores.
+
+7. ### Hyperparameter Tuning Preparation:
+Defined a parameter grid for hyperparameter tuning using RandomizedSearchCV or GridSearchCV, though you haven't implemented the search yet.
+
+8. ### Prediction Merging:
+Predictions are merged back into the original DataFrame, which allows for easy comparisons and adjustments.
+
+9. ### Bayesian Network Structure Learning:
+Structure learning is performed using HillClimbSearch with a scoring method of BicScore, and the learned structure is printed.
+A graphical representation of the learned Bayesian Network structure is plotted using networkx.
+
+Bayesian Network Parameter Fitting:
+The Bayesian Network model is initialized with the learned structure and fitted using MaximumLikelihoodEstimator.
 ## Troubleshooting:
 
 ModuleNotFoundError: If you encounter an error saying a module is not found, make sure you have installed all dependencies listed in requirements.txt.
