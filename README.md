@@ -19,7 +19,7 @@ Dependencies: Install all necessary libraries by running:
 
 Open Jupyter Notebook:
 There are 3 Jupyter Notebook:
-1. *EDA.ipynb*:
+1. **EDA.ipynb**:
 
 Start the Jupyter Notebook server by running:
 
