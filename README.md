@@ -67,6 +67,12 @@ This section includes statistical analyses, data visualizations, or other explor
 
 ## Modeling:
 If applicable, this section may build and train machine learning models on the processed data.
+1. Train-Test Split: The data is split into training and test sets, with 80% of the data going to the training set and 20% to the test set. The target variable is Departure Delay, and the features are all other columns in df_encoded.
+
+2. Feature Scaling:
+   A StandardScaler is used to standardize specified numerical columns (columns_to_standardize) in x_train and x_test.
+   fit_transform() is applied to the training set to calculate the mean and standard deviation and transform the data.
+   transform() is applied to the test set to scale it using the training set's parameters.
 
 ## Results:
 Displays the outcomes of the analyses or models, often with visualizations or summaries.
