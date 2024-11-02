@@ -1,4 +1,4 @@
-# OpenIIT_MS_24
+# OpenIIT_D42_24
 ## Prerequisites
 
 Before running this notebook, ensure you have the following installed:
